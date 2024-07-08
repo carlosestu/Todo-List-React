@@ -1,0 +1,134 @@
+#formulario {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40vw;
+  margin-top: 6vh;
+  width: 18vw;
+  background-color: #f0f8ff;;
+  align-items: center;
+  height: 35vh;
+  border-radius: 20px;
+  border: 1px solid black;
+  border: 2px solid aliceblue;
+  box-shadow: 0px 4px 16px -4px #423942;
+}
+#taskTitle {
+  width: 12vw;
+  margin-top: 3vh;
+  height: 3vh;
+  border-radius: .325rem;
+  border: #f0f8ff;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #212529;
+}
+#select {
+  width: 7vw;
+  margin-top: 2vh;
+  border-radius: .325rem;
+  border: #f0f8ff;
+  height: 4vh;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #212529;
+}
+#textDescription {
+  width: 11vw;
+  margin-top: 2vh;
+  border: #f0f8ff;
+  height: 8vh;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #212529;
+}
+#añadir {
+  width: 7vw;
+  margin-top: 2vh;
+  height: 5vh;
+  border-radius: 1rem;
+  border: #f0f8ff;
+  background-color: #43a4f9;
+  font-size: 1rem;
+  font-family: inherit;
+  color: white;
+
+}
+#tasksRute {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 17vw;
+margin-right: 20vw;
+margin-top: 5.5vh;
+}
+.tasksProccess {
+  border-radius: 0.4rem;
+  border: #f0f8ff;
+  background-color: #43a4f9;
+  width: 19vw;
+  height: min-content;
+  align-items: center;
+  text-align: center;
+}
+.tasksProccess h1{
+  font-weight: 500;
+    line-height: 1.2;
+  font-size: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+.taskDo {
+ width: 15vw;
+  margin-left: 2vw;
+  font-family: var(--bs-body-font-family);
+}
+.taskDo div {
+  align-items: flex-start;
+  margin: 16px;
+  padding: 16px;
+  background-color: white;
+  font-family: var(--bs-body-font-family);
+}
+.titulo {
+  padding: 0px;
+  font-family: var(--bs-body-font-family);
+}
+.buttons {
+  width: 3.5vw;
+  height: 3vh;
+  background-color: #0d6efd;
+  border-radius: .375rem;
+  color: white;
+  font-size: 15px;
+  font-family: var(--bs-body-font-family);
+}
+.buttonsRemove {
+  background-color: white;
+  border: none;
+}
+.buttonRemove {
+  background-color: white;
+  border: none;
+  font-size: 28px;
+}
+.divToDoButtons {
+  display: inline-block;
+  
+}
+.deleteTitle {
+  background-color: red;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 50px;
+}
+div:where(.swal2-container) .swal2-html-container {
+  display: block;padding-top: 0px;padding-left: 0px;padding-right: 0px;padding-bottom: 0px;
+}
+div:where(.swal2-container) .swal2-html-container {
+  background-color: red;
+}
+.pregunta {
+  background-color: white;
+}
+.pregunta {
+  height: 4vh;
+}
